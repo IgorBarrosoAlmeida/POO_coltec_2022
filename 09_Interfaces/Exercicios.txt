@@ -1,0 +1,15 @@
+1. Vamos começar com um exercício para praticar a sintaxe. Crie um projeto interfaces e
+crie a interface AreaCalculavel:
+    ▶ Crie algumas classes que são AreaCalculavel: Quadrado, Retangulo, Círculo.
+    ▶ Crie uma classe Teste com o main.
+
+2. Nosso banco precisa tributar dinheiro de alguns bens que nossos clientes possuem. Para
+isso, vamos criar uma interface no nosso projeto banco já existente:
+    ▶ Alguns bens são tributáveis e outros não, ContaPoupanca não é tributável, já para
+    ContaCorrente você precisa pagar 1% da conta e o SeguroDeVida tem uma taxa fixa de 42
+    reais.
+    ▶ Crie a classe SeguroDeVida, claro ;)
+    ▶ Crie uma classe TestaTributavel com um método main.
+
+3. Crie um GerenciadorDeImpostoDeRenda, que recebe todos os tributáveis de uma
+pessoa e soma seus valores e inclua nele um método para devolver seu total.

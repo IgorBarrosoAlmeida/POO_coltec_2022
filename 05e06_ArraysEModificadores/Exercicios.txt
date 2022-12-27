@@ -1,0 +1,62 @@
+Exercicios da aula 05 "Arrays"
+
+1. Volte ao nosso sistema de Funcionario e crie uma classe Empresa dentro do mesmo
+arquivo .java. A Empresa tem um nome, cnpj e uma referência a um array de Funcionario,
+além de outros atributos que você julgar necessário.
+
+2. A Empresa deve ter um método adiciona, que recebe uma referência a Funcionario
+como argumento e guarda esse funcionário.
+
+3. Crie uma classe TestaEmpresa que possuirá um método main. Dentro dele crie algumas
+instâncias de Funcionario e passe para a empresa pelo método adiciona.
+
+4. Percorra o atributo empregados da sua instância da Empresa e imprima os salários de
+todos seus funcionários.
+
+5. Caso o array já esteja cheia no momento de adicionar um outro funcionário, criar um
+novo maior e copiar os valores. Isto é, fazer a realocação já que java não tem isso: um
+array nasce e morre com o mesmo length.
+
+6. Vamos testar tudo o que vimos até agora com o seguinte programa:
+    ▶ Classe: Casa Atributos: cor, totalDePortas, portas[] Métodos: void pinta(String s), int
+    quantasPortasEstaoAbertas(), void adicionaPorta(Porta p), int totalDePortas()
+
+Crie uma casa, pinte-a. Crie três portas e coloque-as na casa através do método
+adicionaPorta, abra e feche-as como desejar. Utilize o método quantasPortasEstaoAbertas
+para imprimir o número de portas abertas e o método totalDePortas para imprimir o total
+de portas em sua casa.
+
+7. Escreva uma classe Estatística em Java que contenha métodos que recebam um array
+de inteiros e calculem:
+▶ a) a moda dos elementos no array (elemento mais frequente).
+▶ b) A mediana dos elementos no array (elemento central).
+▶ c) a média.
+
+8. Utilize uma matriz quadrada de tamanho n para construir as n primeiras linhas do
+Triângulo de Pascal.
+
+Exercicios da aula 06 "Modificadores"
+
+1. Adicione o modificador de visibilidade (private, se necessário) para cada atributo e
+método da classe Funcionario. Tente criar um Funcionario no main e modificar ou ler um
+de seus atributos privados. O que acontece?
+
+2. Crie os getters e setters necessários da sua classe Funcionario.
+
+3. Modifique suas classes que acessam e modificam atributos de um Funcionario para
+utilizar os getters e setters recém criados.
+
+4. Faça com que sua classe Funcionario possa receber, opcionalmente, o nome do
+Funcionario durante a criação do objeto. Utilize construtores para obter esse resultado.
+Dica: utilize um construtor sem argumentos também, para o caso de a pessoa não querer
+passar o nome do Funcionario.
+
+5. Adicione um atributo na classe Funcionario de tipo int que se chama identificador. Esse
+identificador deve ter um valor único para cada instância do tipo Funcionario. O primeiro
+Funcionario instanciado tem identificador 1, o segundo 2, e assim por diante. Você deve
+utilizar os recursos aprendidos aqui para resolver esse problema.
+
+6. Crie os getters e setters da sua classe Empresa e coloque seus atributos como private.
+Lembre-se de que não necessariamente todos os atributos devem ter getters e setters.
+
+7. Como garantir que datas como 31/2/2012 não sejam aceitas pela sua classe Data?
